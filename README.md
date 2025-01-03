@@ -7,7 +7,6 @@ In this project, these functions are translated into Python to make them easier 
 
 ## Lookup and LookupVGS functions in python 
 ### 1. Lookup Function
-The `lookup` function mimics the MATLAB version. Here’s a breakdown:
 
 #### Syntax:
 ```python
@@ -25,7 +24,6 @@ lookup(nch_data, 'ID', 'L', np.arange(0.4, 1.8, 0.2), 'VGS', 0.5)
 Both `lookup` and `lookupvgs` functions come with extensive examples demonstrating their usage. Refer to those examples provided in the codebase in case of any doubts regarding their usage.
 
 ## Usage Instructions for the plotter
-This tool simplifies graph generation, avoiding repetitive coding for plotting graphs in MATLAB.
 
 ### Steps:
 1. **Upload your `.mat` file**.
@@ -38,7 +36,7 @@ This tool simplifies graph generation, avoiding repetitive coding for plotting g
    - If inputs contain a varying parameter, use the x-slider to view how y-values change for a fixed x-value.
    - For instance, observe how `gm/gds` varies with `L` for a specific `gm/id` value.
    - No graph is generated if no varying parameter is present.
-   - Use the magnifying glass and zoom out buttons in the toolbar to explore the graph.
+6. Use the magnifying glass and zoom out buttons in the toolbar to explore the graph.
 
 ## Dependencies
 - Python (>=3.6)
