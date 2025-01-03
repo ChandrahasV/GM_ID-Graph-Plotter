@@ -1,9 +1,9 @@
 # Gm/Id Plotting Tool
 
 ## Overview
-This project is based on the lookup.m and lookupVGS.m functions originally developed by Paul Jespers and Boris Murmann in their book Systematic Design of Analog CMOS Circuits. These MATLAB functions were used to analyze and extract parameters from transistor simulation data.
+This project is based on the `lookup.m` and `lookupVGS.m` functions originally developed by Paul Jespers and Boris Murmann in their book *Systematic Design of Analog CMOS Circuits*. These MATLAB functions were used to analyze and extract parameters from transistor simulation data.
 
-In this project, these functions are translated into Python to make them easier to use and more widely accessible. A simple GUI has also been created using PyQt5 and the lookup.py to help plot transistor characteristic graphs quickly, removing the need to write MATLAB scripts for each case.
+In this project, these functions are translated into Python to make them easier to use and more widely accessible. A simple GUI has also been created using PyQt5 and the `lookup.py` function to help plot transistor characteristic graphs quickly, removing the need for repetitive MATLAB scripting for generating the numerous graphs required when applying this methodology.
 
 ## Lookup and LookupVGS functions in python 
 ### 1. Lookup Function
@@ -58,4 +58,3 @@ This tool simplifies graph generation, avoiding repetitive coding for plotting g
    ```
 ---
 Feel free to contribute or raise issues to improve this project!
-
