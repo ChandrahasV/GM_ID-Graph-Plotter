@@ -1,4 +1,4 @@
-# Gm/Id Plotting Tool
+# Gm/Id Methodology Plotting Tool
 
 ## Overview
 This project is based on the `lookup.m` and `lookupVGS.m` functions originally developed by Paul Jespers and Boris Murmann in their book *Systematic Design of Analog CMOS Circuits*. These MATLAB functions were used to analyze and extract parameters from transistor simulation data.
