@@ -1,7 +1,9 @@
 # Gm/Id Plotting Tool
 
 ## Overview
-This project aims to make the **gm/id methodology** more accessible by translating the `lookup` and `lookupvgs` MATLAB functions from Paul Jespers and Boris Murmann *Systematic Design of Analog CMOS Circuits* into Python and by developing a gui for making it simpler to plot graphs required for this methodology.
+This project is based on the lookup.m and lookupVGS.m functions originally developed by Paul Jespers and Boris Murmann in their book Systematic Design of Analog CMOS Circuits. These MATLAB functions were used to analyze and extract parameters from transistor simulation data.
+
+In this project, these functions are translated into Python to make them easier to use and more widely accessible. A simple GUI has also been created using PyQt5 and the lookup.py to help plot transistor characteristic graphs quickly, removing the need to write MATLAB scripts for each case.
 
 ## Lookup and LookupVGS functions in python 
 ### 1. Lookup Function
