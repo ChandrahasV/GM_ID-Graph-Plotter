@@ -20,7 +20,7 @@ lookup(data, 'output', 'input1', value1, 'input2', value2, ...)
 ```python
 lookup(nch_data, 'ID', 'L', np.arange(0.4, 1.8, 0.2), 'VGS', 0.5)
 ```
-Both `lookup` and `lookupvgs` functions come with extensive examples demonstrating their usage. Refer to the examples provided in the codebase.
+Both `lookup` and `lookupvgs` functions come with extensive examples demonstrating their usage. Refer to those examples provided in the codebase in case of any doubts regarding their usage.
 
 ## Usage Instructions for the plotter
 This tool simplifies graph generation, avoiding repetitive coding for plotting graphs in MATLAB.
